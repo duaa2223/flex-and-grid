@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+}
+.container{
+    display: grid;
+grid-template-columns: 1fr 1fr 1f2;
+}
+.card{
+ width: 400px;
+height: 400px;
+border: 1px solid #c3c3c3;
+display: flex;
+background-color: beige;
+display: grid;
+grid-template-columns: 1fr  ;
+/*justify-content: center;*/
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+
+
+}
+
+/*.per{
+    justify-self:center;
+}
+*/
+.cir{
+    border-radius: 25px;
+}
+.boold{
+    
+    font-weight: bold;
+}
+.padding{
+    margin-left: 30%;
+
+}
+.paddinghr{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.possition{
+
+}
